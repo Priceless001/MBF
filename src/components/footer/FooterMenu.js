@@ -37,23 +37,6 @@ export default class FooterMenu extends React.Component {
             }
             onClick={ResetLocation}
             className="txt-white"
-            to="/blog"
-          >
-            Blog
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            style={({ isActive }) =>
-              isActive
-                ? {
-                  textDecoration: "none",
-                  color: "#ff6240",
-                }
-                : {}
-            }
-            onClick={ResetLocation}
-            className="txt-white"
             to="/about"
           >
             About
