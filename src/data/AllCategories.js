@@ -1,26 +1,14 @@
 export const AllCategories = [
   {
-    name: "Menu",
+    name: "All Products",
     id: "Menu",
   },
   {
-    name: "Pizza",
-    id: "Pizza",
+    name: "Veggies",
+    id: "Veggies",
   },
   {
     name: "Pasta",
     id: "Pasta",
-  },
-  {
-    name: "Sushi",
-    id: "Sushi",
-  },
-  {
-    name: "Drinks",
-    id: "Drinks",
-  },
-  {
-    name: "Sale",
-    id: "Sale",
   },
 ];
