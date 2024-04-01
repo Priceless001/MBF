@@ -1,6 +1,6 @@
 export const AllCategories = [
   {
-    name: "All Products",
+    name: "All",
     id: "Menu",
   },
   {
@@ -8,7 +8,7 @@ export const AllCategories = [
     id: "Veggies",
   },
   {
-    name: "Pasta",
-    id: "Pasta",
+    name: "Grains",
+    id: "Grains",
   },
 ];
