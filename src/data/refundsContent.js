@@ -11,7 +11,7 @@ const refundsContent = [
         id: 2,
         title: 'Refund Request Process',
         content: `To request a refund, you must:
-        Contact our customer support team at support@pizzatime.com within 30 days of your purchase.
+        Contact our customer support team at support @mbfgbemidele5862@gmail.com within 2 days of your purchase.
         Provide details about the reason for your refund request and any relevant supporting documentation.
         Allow our team sufficient time to review your request and investigate the matter.
 `
@@ -30,7 +30,7 @@ const refundsContent = [
         id: 5,
         title: 'Non-Refundable Items',
         content: `The following items are non-refundable:
-        Refunds requested beyond 30 days from the date of purchase.
+        Refunds requested beyond 2 days from the date of purchase.
         Refunds requested due to changes in personal circumstances or preferences.
         Refunds requested for reasons not covered under the refund eligibility criteria.`
     },
@@ -42,8 +42,8 @@ const refundsContent = [
     {
         id: 7,
         title: 'Contact Us',
-        content: `If you have any questions or concerns regarding this Refund Policy or our services, please contact us at support@pizzatime.com.
-        By using Pizza Time's services, you acknowledge that you have read, understood, and agree to this Refund Policy.`
+        content: `If you have any questions or concerns regarding this Refund Policy or our services, please contact us at support@mbfgbemidele5862@gmail.com.
+        By using MBF's services, you acknowledge that you have read, understood, and agree to this Refund Policy.`
     },
 
 ]
