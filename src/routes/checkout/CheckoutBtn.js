@@ -1,23 +1,11 @@
 import React from "react";
-//components
-import LinkButton from "../../components/Button";
-import ResetLocation from "../../helpers/ResetLocation";
+import { Link } from "react-router-dom"; // Importing Link from react-router-dom to navigate to the checkout page
 
-const CheckoutBtn = ({ className, validLogin, activateLoginModal }) => {
+const CheckoutBtn = ({ className }) => {
   return (
-    <React.Fragment>
-      {validLogin ?
-        <LinkButton
-          onClick={ResetLocation}
-          to="/checkout"
-          className={className}
-        >Checkout</LinkButton>
-        :
-        <button className={className} onClick={() => { ResetLocation(); activateLoginModal() }}>
-          Checkout</button>
-      }
-    </React.Fragment>
-
+    <Link to="/checkout" className={className}>
+      Checkout
+    </Link>
   );
 }
 
