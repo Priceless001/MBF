@@ -1,6 +1,6 @@
 
-import ImgOne from '../assets/images/our-services/organic-food.webp'
-import ImgTwo from '../assets/images/our-services/express-delivery.webp'
+import ImgOne from '../assets/images/our-services/organic.jpg'
+import ImgTwo from '../assets/images/our-services/delivery.jpg'
 import ImgThree from '../assets/images/our-services/unforgable-taste.webp'
 
 const ourServices = [
