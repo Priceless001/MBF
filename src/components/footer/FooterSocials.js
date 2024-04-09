@@ -22,7 +22,7 @@ const socials = [
     href: "mailto:mbf@gmail.com",
     img: Gmail,
     name: Gmail
-  }
+  },
   {
     id: 4,
     href: "https://me",
