@@ -1,27 +1,34 @@
 import React from "react";
-import Github from "../../assets/images/socials/github.svg";
-import Linkedin from "../../assets/images/socials/linkedin.svg";
-import Website from "../../assets/images/socials/portfolio.png";
+import Facebook from "../../assets/images/socials/facebook.svg";
+import Instagram from "../../assets/images/socials/instagram.svg";
+import Gmail from "../../assets/images/socials/gmail.svg";
+import WhatsApp from "../../assets/images/socials/whatsapp.svg";
 
 const socials = [
   {
     id: 1,
-    href: "https://github.com",
-    img: Github,
-    name: Github
+    href: "https://facebook.com",
+    img: Facebook,
+    name: Facebook
   },
   {
     id: 2,
-    href: "https://www.linkedin.com/in/",
-    img: Linkedin,
-    name: Linkedin
+    href: "https://www.instagram.com",
+    img: Instagram,
+    name: Instagram
   },
   {
     id: 3,
-    href: "/",
-    img: Website,
-    name: Website
+    href: "mailto:mbf@gmail.com",
+    img: Gmail,
+    name: Gmail
   }
+  {
+    id: 4,
+    href: "https://me",
+    img: WhatsApp,
+    name: WhatsApp
+}
 ];
 
 export default class FooterSocials extends React.Component {
