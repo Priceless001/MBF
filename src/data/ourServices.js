@@ -1,7 +1,7 @@
 
 import ImgOne from '../assets/images/our-services/organic.jpg'
 import ImgTwo from '../assets/images/our-services/delivery.jpg'
-import ImgThree from '../assets/images/our-services/unforgable-taste.webp'
+import ImgThree from '../assets/images/our-services/event.jpg'
 
 const ourServices = [
     {
