@@ -138,10 +138,10 @@ export const allProductsData = [
   {
     id: 'bbq-chicken-pizza',
     ItemImg: BBQPizza,
-    ItemName: 'BBQ Chicken Pizza',
+    ItemName: 'Pepper (Rodo)',
     ItemIngredients:
       'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
-    ItemPrice: (10).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -159,9 +159,9 @@ export const allProductsData = [
   {
     id: 'alla-pala-pizza',
     ItemImg: AllaPalla,
-    ItemName: 'Pizza alla pala',
+    ItemName: 'Red Ball Pepper',
     ItemIngredients: 'Cheese, cherry tomatoes, arugula, olive oil, yeast.',
-    ItemPrice: (12).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
