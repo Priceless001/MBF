@@ -1289,7 +1289,7 @@ export const allProductsData = [
     ItemImg: PizzaRomana,
     ItemName: 'Pizza Romana',
     ItemIngredients: 'Fresh mozzarella, bread flour, tomato, olive oil, yeast',
-    ItemPrice: (11).toFixed(2),
+    ItemPrice: (9799).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
