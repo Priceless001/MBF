@@ -23,7 +23,7 @@ const Contact = () => {
           <p>
     For any inquiries, please feel free to contact us at <strong>08063329112</strong> or email us at <strong>mbfgbemidele5862@gmail.com</strong>. You can also reach out to us through any of our social media handles.
   </p>
-    <br>
+  
   <p>
     We greatly value your feedback and questions. Whether you need further clarification or assistance, we are here to support you. Looking forward to hearing from you!
   </p>
