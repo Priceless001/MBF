@@ -21,8 +21,11 @@ const Contact = () => {
         <section className="contact-us-content-txt">
           <h2>Contact us</h2>
           <p>
-            We greatly anticipate your response and are eager to receive any inquiries you might have. Please do not hesitate to reach out to us should you require any further clarification or assistance. Your feedback and questions are of utmost importance to us, and we are here to provide the support you need. Looking forward to hearing from you!
-          </p>
+    For any inquiries, please feel free to contact us at <strong>08063329112</strong> or email us at <strong>mbfgbemidele5862@gmail.com</strong>. You can also reach out to us through any of our social media handles.
+  </p>
+  <p>
+    We greatly value your feedback and questions. Whether you need further clarification or assistance, we are here to support you. Looking forward to hearing from you!
+  </p>
         </section>
       </section>
     </motion.main>
