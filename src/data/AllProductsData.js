@@ -67,7 +67,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'kg', value: 'small' },
+          { id: '1kg', value: 'small' },
           { id: 'medium', value: 'medium' },
           { id: 'large', value: 'large' },
         ],
@@ -1296,10 +1296,10 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg', slices: '6' },
+          { id: '2kg', value: '2kg', slices: '8' },
+          { id: '3kg', value: '3kg', slices: '10' },
+          { id: '4kg', value: '4kg', slices: '12' },
         ],
       },
     ],
