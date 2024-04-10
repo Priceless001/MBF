@@ -1,7 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { FaShippingFast } from "react-icons/fa";
-import { RiShoppingBagLine } from "react-icons/ri";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link, useNavigate } from "react-router-dom";
 
