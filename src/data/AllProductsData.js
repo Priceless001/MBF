@@ -1287,7 +1287,7 @@ export const allProductsData = [
   {
     id: 'pizza-romana-second',
     ItemImg: PizzaRomana,
-    ItemName: 'Pizza Romana',
+    ItemName: 'Cashew Nut',
     ItemIngredients: 'Fresh mozzarella, bread flour, tomato, olive oil, yeast',
     ItemPrice: (9799.99).toFixed(2),
     Category: 'Pizza',
