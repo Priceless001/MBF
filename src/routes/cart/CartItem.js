@@ -6,10 +6,19 @@ const CartItem = ({
   handleAddProduct,
   handleRemoveProduct,
   clearCart,
-  cartItems, cartTotals }) => {
+  cartItems,
+  cartTotals,
+  selectedSizeId // Assuming selectedSizeId is passed as a prop
+}) => {
   return (
     <React.Fragment>
       {cartItems.map((cartItem, index) => {
+        // Find the selected size option
+        const selectedSizeOption = cartItem.attributes[0].attributeOptions.find(option => option.id === selectedSizeId);
+
+        // Assuming selectedSizeOption is defined
+        const price = parseFloat(cartItem.ItemPrice) * parseFloat(selectedSizeOption.value);
+
         return (
           <section className="cart-item" key={index}>
             <img src={cartItem.ItemImg} alt={cartItem.ItemName} />
@@ -35,13 +44,13 @@ const CartItem = ({
                   cartItem={cartItem}
                 />
 
-                <p className="cart-item-price">₦{cartItem.ItemPrice}</p>
+                {/* Display the dynamically calculated price */}
+                <p className="cart-item-price">₦{price.toFixed(2)}</p>
               </section>
             </section>
           </section>
         );
-      })
-      }
+      })}
       <button onClick={clearCart} className="cart-clear-btn">
         remove all items from the cart
       </button>
@@ -50,6 +59,5 @@ const CartItem = ({
   );
 }
 
-
-
 export default CartItem;
+          
