@@ -33,7 +33,7 @@ import PizzaRomana from '../assets/images/PizzaRomana.jpeg'
 export const allProductsData = [
   {
     id: 'cheese-pizza',
-    ItemImg: CheesePizza,
+    ItemImg: PizzaRomana,
     ItemName: 'Cheese Pizza',
     ItemIngredients: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
     ItemPrice: (2).toFixed(2),
