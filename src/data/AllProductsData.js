@@ -54,7 +54,7 @@ export const allProductsData = [
   {
     id: 'veggie-pizza',
     ItemImg: VeggiePizza,
-    ItemName: 'Watermelon (Large)',
+    ItemName: 'Watermelon ',
     ItemIngredients:
       'Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.',
     ItemPrice: (2500).toFixed(2),
@@ -64,10 +64,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'large', value: 'large' },        
         ],
       },
     ],
@@ -85,10 +82,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -106,10 +100,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -127,10 +118,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -148,10 +136,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -168,10 +153,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -189,10 +171,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -210,10 +189,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -221,7 +197,7 @@ export const allProductsData = [
   {
     id: 'garlic-fingers',
     ItemImg: GarlicFingers,
-    ItemName: 'Cabbage (Medium Ball)',
+    ItemName: 'Cabbage ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1000).toFixed(2),
@@ -231,10 +207,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'medium', value: 'medium' },
         ],
       },
     ],
@@ -242,7 +215,7 @@ export const allProductsData = [
   {
     id: 'st-ouis-style-pizza',
     ItemImg: StLous,
-    ItemName: 'Cabbage (Large Ball)',
+    ItemName: 'Cabbage ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1500).toFixed(2),
@@ -252,10 +225,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'large', value: 'large' },          
         ],
       },
     ],
@@ -272,10 +242,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: '1kg', value: '1kg' },
         ],
       },
     ],
@@ -283,7 +250,7 @@ export const allProductsData = [
   {
     id: 'pesto-genovese-pizza',
     ItemImg: Genovese,
-    ItemName: 'Yam (Large)',
+    ItemName: 'Yam ',
     ItemIngredients:
       'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (6000).toFixed(2),
@@ -293,10 +260,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'large', value: 'large' },
         ],
       },
     ],
@@ -304,7 +268,7 @@ export const allProductsData = [
   {
     id: 'e-fichi-pizza',
     ItemImg: Efichi,
-    ItemName: 'Yam (Medium)',
+    ItemName: 'Yam ',
     ItemIngredients: 'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
@@ -313,10 +277,7 @@ export const allProductsData = [
         id: 'size',
         name: 'size',
         attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
+          { id: 'medium', value: 'medium' },
         ],
       },
     ],
