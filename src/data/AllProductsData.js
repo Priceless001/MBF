@@ -224,7 +224,7 @@ export const allProductsData = [
     ItemName: 'Cabbage (Medium Ball)',
     ItemIngredients:
       'Bread flour, mozzarella cheese, butter, olive oil, instant yeast.',
-    ItemPrice: (7).toFixed(2),
+    ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -245,7 +245,7 @@ export const allProductsData = [
     ItemName: 'Cabbage (Large Ball)',
     ItemIngredients:
       'Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.',
-    ItemPrice: (13).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -263,9 +263,9 @@ export const allProductsData = [
   {
     id: 'rustica-pizza',
     ItemImg: Rustica,
-    ItemName: 'Pizza Rustica',
+    ItemName: 'Green Pepper ',
     ItemIngredients: 'Prosciutto, pepperoni, mozzarella, crust, eggs.',
-    ItemPrice: (13).toFixed(2),
+    ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -283,10 +283,10 @@ export const allProductsData = [
   {
     id: 'pesto-genovese-pizza',
     ItemImg: Genovese,
-    ItemName: 'Pizza pesto Genovese',
+    ItemName: 'Yam (Large)',
     ItemIngredients:
       'Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.',
-    ItemPrice: (13).toFixed(2),
+    ItemPrice: (6000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -304,9 +304,9 @@ export const allProductsData = [
   {
     id: 'e-fichi-pizza',
     ItemImg: Efichi,
-    ItemName: 'Pizza e fichi',
+    ItemName: 'Yam (Medium)',
     ItemIngredients: 'Coconut flour, truffle oil, fig jam, cheese, prosciutto.',
-    ItemPrice: (12).toFixed(2),
+    ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -320,26 +320,5 @@ export const allProductsData = [
         ],
       },
     ],
-  },
-  {
-    id: 'apizza-pizza',
-    ItemImg: Apizza,
-    ItemName: 'Apizza',
-    ItemIngredients:
-      'Ricotta cheese, tomato sauce, fresh basil pesto, fresh mozzarella cheese, semolina flour.',
-    ItemPrice: (11).toFixed(2),
-    Category: 'Pizza',
-    attributes: [
-      {
-        id: 'size',
-        name: 'size',
-        attributeOptions: [
-          { id: 'small', value: 'small', slices: '6' },
-          { id: 'medium', value: 'medium', slices: '8' },
-          { id: 'large', value: 'large', slices: '10' },
-          { id: 'x-large', value: 'x-large', slices: '12' },
-        ],
-      },
-    ],
-  }                                  
+  }                   
 ]
