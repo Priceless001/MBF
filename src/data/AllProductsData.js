@@ -75,10 +75,10 @@ export const allProductsData = [
   {
     id: 'pepperoni-pizza',
     ItemImg: PepperoniPizza,
-    ItemName: 'Pepperoni Pizza',
+    ItemName: 'Tomatoes',
     ItemIngredients:
       'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
-    ItemPrice: (5).toFixed(2),
+    ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -96,10 +96,10 @@ export const allProductsData = [
   {
     id: 'meat-pizza',
     ItemImg: MeatPizza,
-    ItemName: 'Meat Pizza',
+    ItemName: 'Onions',
     ItemIngredients:
       'Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.',
-    ItemPrice: (10).toFixed(2),
+    ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -117,10 +117,10 @@ export const allProductsData = [
   {
     id: 'margherita-pizza',
     ItemImg: MargheritaPizza,
-    ItemName: 'Margherita Pizza',
+    ItemName: 'Chill Pepper',
     ItemIngredients:
       'Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.',
-    ItemPrice: (8).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
