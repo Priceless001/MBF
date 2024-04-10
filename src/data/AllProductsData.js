@@ -179,10 +179,10 @@ export const allProductsData = [
   {
     id: 'prosciutto-e-funghi-pizza',
     ItemImg: Prosciutto,
-    ItemName: 'Prosciutto e Funghi Pizza',
+    ItemName: 'Carrots',
     ItemIngredients:
       'Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.',
-    ItemPrice: (8).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -200,10 +200,10 @@ export const allProductsData = [
   {
     id: 'detroit-style-pizza',
     ItemImg: DetroitStyle,
-    ItemName: 'Detroit-Style Pizza',
+    ItemName: 'Cucumber',
     ItemIngredients:
       'Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.',
-    ItemPrice: (11).toFixed(2),
+    ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -221,7 +221,7 @@ export const allProductsData = [
   {
     id: 'garlic-fingers',
     ItemImg: GarlicFingers,
-    ItemName: 'Garlic Fingers',
+    ItemName: 'Cabbage (Medium Ball)',
     ItemIngredients:
       'Bread flour, mozzarella cheese, butter, olive oil, instant yeast.',
     ItemPrice: (7).toFixed(2),
@@ -242,7 +242,7 @@ export const allProductsData = [
   {
     id: 'st-ouis-style-pizza',
     ItemImg: StLous,
-    ItemName: 'St. Louis-Style Pizza',
+    ItemName: 'Cabbage (Large Ball)',
     ItemIngredients:
       'Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.',
     ItemPrice: (13).toFixed(2),
