@@ -66,48 +66,7 @@ const CheckoutForm = ({ currentUser, totalPayment, productsQuantity, taxes }) =>
       </section>
       <form onSubmit={handleSubmit}>
         <h3>Delivery details</h3>
-        <label htmlFor="takeaway" className="takeaway-option" name="chooseDelivery">
-          <RiShoppingBagLine />
-          Takeaway
-          <input
-            className="takeaway"
-            type="radio"
-            placeholder="Address"
-            value="takeaway"
-            name="chooseDelivery"
-            onChange={handleValidation}
-          />
-        </label>
-        <label htmlFor="delivery" className="delivery-option" name="chooseDelivery">
-          <FaShippingFast />
-          Delivery
-          <input
-            className="delivery"
-            type="radio"
-            placeholder="Address"
-            value="delivery"
-            name="chooseDelivery"
-            onChange={handleValidation}
-          />
-        </label>
-        <span className="fullname-error-cpage">{formError.chooseDelivery}</span>
-        <section className="promo-code">
-
-          {promoCode === false ? <p onClick={togglePromocode}>I have a promo code!</p> : (
-            <React.Fragment>
-              <p onClick={togglePromocode}>No promo code</p>
-              <input
-                name="promoCode"
-                className=" pop-font"
-                type="text"
-                placeholder="Enter the 5-digit code"
-                onChange={handleValidation}
-                value={formValue.promoCode}
-              />
-            </React.Fragment>
-          )}
-          <span className="fullname-error-cpage">{formError.promoCode}</span>
-        </section>
+        
         <article className="checkout-carttotals">
           {productsQuantity === 0 ? null : (
             <section className="cart-totals">
