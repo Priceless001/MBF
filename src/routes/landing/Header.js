@@ -130,7 +130,6 @@ const Header = ({ loginModal,
                 <p>Cart</p>
                 <p>({productsQuantity})</p>
               </NavLink>
-            </div>
           </li>
         </ul>
         <img
