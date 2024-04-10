@@ -34,7 +34,7 @@ export const allProductsData = [
   {
     id: 'cheese-pizza',
     ItemImg: PizzaRomana,
-    ItemName: 'Watermelon (Medium)',
+    ItemName: 'Sweet Beans',
     ItemIngredients: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
