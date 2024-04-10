@@ -34,9 +34,9 @@ export const allProductsData = [
   {
     id: 'cheese-pizza',
     ItemImg: PizzaRomana,
-    ItemName: 'Cheese Pizza',
+    ItemName: 'Watermelon (Medium)',
     ItemIngredients: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
-    ItemPrice: (2).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
@@ -54,10 +54,10 @@ export const allProductsData = [
   {
     id: 'veggie-pizza',
     ItemImg: VeggiePizza,
-    ItemName: 'Veggie Pizza',
+    ItemName: 'Watermelon (Large)',
     ItemIngredients:
       'Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.',
-    ItemPrice: (9).toFixed(2),
+    ItemPrice: (2500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
