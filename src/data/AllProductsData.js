@@ -98,7 +98,7 @@ export const allProductsData = [
     ItemImg: MeatPizza,
     ItemName: 'Onions',
     ItemIngredients:
-      'Sausage, pizza dough, bacon, pizza sauce, red pepper flakes.',
+      'A round or elongated bulb vegetable with a strong, pungent flavor that mellows when cooked.',
     ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -181,7 +181,7 @@ export const allProductsData = [
     ItemImg: Prosciutto,
     ItemName: 'Carrots',
     ItemIngredients:
-      'Italian sausage meat, truffle oil, pizza dough, san marzano tomatoes, bocconcini cheese.',
+      'A crunchy, orange root vegetable with a sweet flavor. They can be eaten raw, roasted, boiled, or juiced. Carrots are a good source of Vitamin A.',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -202,7 +202,7 @@ export const allProductsData = [
     ItemImg: DetroitStyle,
     ItemName: 'Cucumber',
     ItemIngredients:
-      'Pizza dough, pizza sauce, brick cheese, rapid rise yeast, olive oil.',
+      'A long, green gourd-like vegetable with watery flesh and mild flavor. There are seedless varieties and ones with small edible seeds. Cucumbers are great for salads, sandwiches, or refreshing dips like raita.',
     ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -223,7 +223,7 @@ export const allProductsData = [
     ItemImg: GarlicFingers,
     ItemName: 'Cabbage (Medium Ball)',
     ItemIngredients:
-      'Bread flour, mozzarella cheese, butter, olive oil, instant yeast.',
+      'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -244,7 +244,7 @@ export const allProductsData = [
     ItemImg: StLous,
     ItemName: 'Cabbage (Large Ball)',
     ItemIngredients:
-      'Liquid smoke, swiss cheese, white cheddar cheese, light corn syrup, pizza sauce.',
+      'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
