@@ -16,12 +16,6 @@ const Contact = () => {
       exit={{ opacity: 0, translateX: -300 }}
       transition={{ duration: 1 }}
     >
-      <section className="contact-success">
-        <p>We have received your message and will get back to you shortly! </p>
-        <section>
-          <Link className="active-button-style" to="/menu">Go to menu</Link>
-        </section>
-      </section>
       <section className="contact-us-img"></section>
       <section className="contact-us-content pop-font">
         <section className="contact-us-content-txt">
