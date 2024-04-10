@@ -5,7 +5,7 @@ const AddToCartButton = ({ singleProduct, selectedAttributes, handleAddProduct, 
     <button
       onClick={() => {
         handleAddProduct(singleProduct, selectedAttributes);
-        setTargetAttribute(false);
+        setTargetAttribute(true);
       }}
       className={`passive-button-style ${targetAttribute?.length > 0 || singleProduct?.attributes?.length === 0
         ? "active-add-to-cart"
