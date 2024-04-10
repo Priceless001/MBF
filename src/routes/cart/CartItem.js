@@ -35,7 +35,7 @@ const CartItem = ({
                   cartItem={cartItem}
                 />
 
-                <p className="cart-item-price">${cartItem.ItemPrice}</p>
+                <p className="cart-item-price">₦{cartItem.ItemPrice}</p>
               </section>
             </section>
           </section>
