@@ -140,7 +140,7 @@ export const allProductsData = [
     ItemImg: BBQPizza,
     ItemName: 'Pepper (Rodo)',
     ItemIngredients:
-      'Rotisserie chicken, pizza dough, bbq sauce, smoked cheddar cheese, mozzarella cheese.',
+      'Rodo peppers are a type of chili pepper known for their red color and smoky flavor.',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -159,8 +159,8 @@ export const allProductsData = [
   {
     id: 'alla-pala-pizza',
     ItemImg: AllaPalla,
-    ItemName: 'Red Ball Pepper',
-    ItemIngredients: 'Cheese, cherry tomatoes, arugula, olive oil, yeast.',
+    ItemName: 'Red Bell Pepper',
+    ItemIngredients: 'Redbell peppers are a type of sweet pepper available in various colors, including red, yellow, orange, and green.',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -264,7 +264,7 @@ export const allProductsData = [
     id: 'rustica-pizza',
     ItemImg: Rustica,
     ItemName: 'Green Pepper ',
-    ItemIngredients: 'Prosciutto, pepperoni, mozzarella, crust, eggs.',
+    ItemIngredients: 'Green peppers are unripe bell peppers and have a grassy flavor.',
     ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -285,7 +285,7 @@ export const allProductsData = [
     ItemImg: Genovese,
     ItemName: 'Yam (Large)',
     ItemIngredients:
-      'Pine nuts, baby potatoes, snow pea shoots, lemon, buffalo mozzarella.',
+      'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (6000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -305,7 +305,7 @@ export const allProductsData = [
     id: 'e-fichi-pizza',
     ItemImg: Efichi,
     ItemName: 'Yam (Medium)',
-    ItemIngredients: 'Coconut flour, truffle oil, fig jam, cheese, prosciutto.',
+    ItemIngredients: 'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
     attributes: [
