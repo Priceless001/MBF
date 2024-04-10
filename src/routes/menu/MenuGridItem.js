@@ -25,6 +25,10 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
     });
   };
 
+  const emptySelectedAttributes = () => {
+    // Function to reset selectedAttributes to an empty array
+    setSelectedAttributes([]);
+  };
 
   return (
     <article className="menu-grid-item flex-container flex-column txt-white">
@@ -60,6 +64,7 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
           selectedAttributes={selectedAttributes}
           targetAttribute={targetAttribute}
           setTargetAttribute={setTargetAttribute}
+          emptySelectedAttributes={emptySelectedAttributes} // Pass the emptySelectedAttributes function
         />
       </div>
     </article>
@@ -67,3 +72,4 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
 };
 
 export default MenuGridItem;
+  
