@@ -14,17 +14,7 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
       </Link>
       <h3>{singleProduct.ItemName}</h3>
       <p>{singleProduct.ItemIngredients}</p>
-      {singleProduct.attributes.length === 0 ? null :
-        singleProduct.attributes?.map(attribute => (
-          <Attribute
-            key={attribute.id}
-            className="attributes"
-            handleSelectedAttributes={handleSelectedAttributes}
-            attribute={attribute}
-            targetAttribute={targetAttribute}
-          />
-        ))
-      }
+    
       <div className="price">
         {singleProduct.sale === true ?
           <section className="sale-pricing">
