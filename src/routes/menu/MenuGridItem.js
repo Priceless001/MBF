@@ -1,34 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import AddToCartButton from '../cart/AddToCartButton';
-import Attribute from './Attribute';
 import ResetLocation from "../../helpers/ResetLocation";
 
 const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) => {
-  const [selectedAttributes, setSelectedAttributes] = useState([]);
-  const [targetAttribute, setTargetAttribute] = useState('');
 
-  const handleSelectedAttributes = (attributeId, attributeValue) => {
-    setTargetAttribute(attributeValue);
-    const newSelectedAttribute = { attributeId, attributeValue };
-    setSelectedAttributes(prevAttributes => {
-      const existingAttributeIndex = prevAttributes.findIndex(
-        attribute => attribute.attributeId === newSelectedAttribute.attributeId
-      );
-      if (existingAttributeIndex !== -1) {
-        const updatedAttributes = [...prevAttributes];
-        updatedAttributes[existingAttributeIndex] = { ...newSelectedAttribute };
-        return updatedAttributes;
-      } else {
-        return [...prevAttributes, newSelectedAttribute];
-      }
-    });
-  };
-
-  const emptySelectedAttributes = () => {
-    // Function to reset selectedAttributes to an empty array
-    setSelectedAttributes([]);
-  };
+ 
 
   return (
     <article className="menu-grid-item flex-container flex-column txt-white">
@@ -61,10 +38,6 @@ const MenuGridItem = ({ singleProduct, handleAddProduct, handleRemoveProduct }) 
           handleAddProduct={handleAddProduct}
           handleRemoveProduct={handleRemoveProduct}
           singleProduct={singleProduct}
-          selectedAttributes={selectedAttributes}
-          targetAttribute={targetAttribute}
-          setTargetAttribute={setTargetAttribute}
-          emptySelectedAttributes={emptySelectedAttributes} // Pass the emptySelectedAttributes function
         />
       </div>
     </article>
