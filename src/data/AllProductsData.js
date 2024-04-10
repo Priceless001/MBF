@@ -96,7 +96,7 @@ export const allProductsData = [
   {
     id: 'meat-pizza',
     ItemImg: MeatPizza,
-    ItemName: 'Onions',
+    ItemName: 'Bell Pepper',
     ItemIngredients:
       'A round or elongated bulb vegetable with a strong, pungent flavor that mellows when cooked.',
     ItemPrice: (1000).toFixed(2),
