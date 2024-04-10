@@ -4,7 +4,6 @@ import openMenu from '../../assets/images/open-menu.svg'
 import closeMenu from '../../assets/images/close-menu.svg'
 import { Link, NavLink } from 'react-router-dom'
 import Cart from '../../assets/images/cart-icon.png'
-import SuccessMsg from '../../components/SuccessMsg'
 import ResetLocation from '../../helpers/ResetLocation'
 
 const Header = ({ loginModal,
@@ -118,50 +117,7 @@ const Header = ({ loginModal,
               Contact
             </NavLink>
           </li>
-          {validLogin ? <li>
-            <NavLink
-              onClick={() => {
-                ResetLocation()
-                hideMenu()
-              }}
-              style={({ isActive }) =>
-                isActive
-                  ? {
-                    textDecoration: 'none',
-                    color: '#9f800d',
-                  }
-                  : {}
-              }
-              className="txt-white"
-              to="/profile"
-            >
-              Profile
-            </NavLink>
-          </li> : null}
-          <li>
-            <div className="login-and-cart">
-              {validLogin ? (
-                <Link
-                  to="/"
-                  className="passive-button-style txt-white"
-                  onClick={() => {
-                    ResetLocation()
-                    handleLogout()
-                  }}
-                >
-                  Log out
-                </Link>
-              ) : (
-                <div
-                  className="passive-button-style txt-white"
-                  onClick={() => {
-                    ResetLocation()
-                    activateLoginModal()
-                  }}
-                >
-                  Log in
-                </div>
-              )}
+           <li>
               <NavLink
                 className="cart-btn active-button-style txt-white"
                 to="/cart"
@@ -186,7 +142,6 @@ const Header = ({ loginModal,
           onClick={showModal}
         />
       </nav>
-      <SuccessMsg />
     </header>
   )
 }
