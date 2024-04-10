@@ -23,7 +23,7 @@ Rest assured, when we handle your events, success is guaranteed at 100 percent. 
  our reputation is built on the pillars of quality, swift, and punctual delivery of both goods and services. We proudly stand as unrivaled leaders in our field.
         </p>
       </section>
-      <div className="img-glass"></div>
+      // <div className="img-glass"></div>
     </article>
   );
 }
