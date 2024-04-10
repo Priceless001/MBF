@@ -6,7 +6,17 @@ const CartItem = ({
   handleAddProduct,
   handleRemoveProduct,
   clearCart,
-  cartItems, cartTotals }) => {
+  cartItems,
+  cartTotals,
+}) => {
+  const calculateTotalPrice = (item, selectedSize) => {
+    const selectedOption = item.attributes[0].attributeOptions.find(
+      (option) => option.id === selectedSize
+    );
+    const totalPrice = parseFloat(item.ItemPrice) * parseInt(selectedOption.value);
+    return totalPrice.toFixed(2);
+  };
+
   return (
     <React.Fragment>
       {cartItems.map((cartItem, index) => {
@@ -35,22 +45,21 @@ const CartItem = ({
                   cartItem={cartItem}
                 />
 
-                <p className="cart-item-price">₦{cartItem.ItemPrice}</p>
+                <p className="cart-item-price">
+                  ₦{calculateTotalPrice(cartItem, cartItem.selectedSize)}
+                </p>
               </section>
             </section>
           </section>
         );
-      })
-      }
+      })}
       <button onClick={clearCart} className="cart-clear-btn">
         remove all items from the cart
       </button>
       {cartTotals}
     </React.Fragment>
   );
-}
-
-
+};
 
 export default CartItem;
-                     
+    
