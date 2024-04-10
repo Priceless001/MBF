@@ -1295,12 +1295,6 @@ export const allProductsData = [
       {
         id: 'size',
         name: 'size',
-        attributeOptions: [
-          { id: '1kg', value: '1kg', slices: '6' },
-          { id: '2kg', value: '2kg', slices: '8' },
-          { id: '3kg', value: '3kg', slices: '10' },
-          { id: '4kg', value: '4kg', slices: '12' },
-        ],
       },
     ],
   }     
