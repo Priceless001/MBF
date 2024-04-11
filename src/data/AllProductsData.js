@@ -3,7 +3,7 @@ import ExtraCheesePizza from '../assets/images/cheese-pizza-376.jpg'
 import VeggiePizza from '../assets/images/veggie-pizza.jpg'
 import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
 import MeatPizza from '../assets/images/meat-pizza.jpg'
-import MargheritaPizza from '../assets/images/margherita-pizza.jpg'
+import SpringOnions from '../assets/images/product-images/spring-onions.jpg'
 import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
 import AllaPalla from '../assets/images/pizza-alla-pala.jpg'
 import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
@@ -107,7 +107,7 @@ export const allProductsData = [
   },
   {
     id: 'spring-onion',
-    ItemImg: MargheritaPizza,
+    ItemImg: SpringOnions,
     ItemName: 'Spring Onion',
     ItemIngredients:
       'Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.',
