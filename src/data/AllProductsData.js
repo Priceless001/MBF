@@ -4,9 +4,9 @@ import VeggiePizza from '../assets/images/veggie-pizza.jpg'
 import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
 import MeatPizza from '../assets/images/meat-pizza.jpg'
 import SpringOnions from '../assets/images/product-images/spring-onions.jpg'
-import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
+// import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
 import AllaPalla from '../assets/images/pizza-alla-pala.jpg'
-import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
+// import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
 import DetroitStyle from '../assets/images/Detroit-Style-pizza.jpeg'
 import GarlicFingers from '../assets/images/Garlic-Fingers-pizza.jpeg'
 import Cabbages from '../assets/images/product-images/cabbages.jpg'
@@ -29,6 +29,10 @@ import Romana from '../assets/images/romana.jpeg'
 import ThinCrust from '../assets/images/Thin-Crust.jpeg'
 import GreekStyle from '../assets/images/Greek-Style.jpeg'
 import PizzaRomana from '../assets/images/PizzaRomana.jpeg'
+import Carrot from '../assets/images/Carrott.jpeg'
+import Rodo from '../assets/images/Rodo.jpeg'
+import Cucumber from '../assets/images/Cucumber.jpeg'
+import Bellpepper from '../assets/images/BellPepper.Jpeg'
 
 export const allProductsData = [
   {
@@ -125,7 +129,7 @@ export const allProductsData = [
   },
   {
     id: 'bbq-chicken-pizza',
-    ItemImg: BBQPizza,
+    ItemImg: Rodo,
     ItemName: 'Pepper (Rodo)',
     ItemIngredients:
       'Rodo peppers are a type of chili pepper known for their red color and smoky flavor.',
@@ -143,7 +147,7 @@ export const allProductsData = [
   },
   {
     id: 'red-bell-pepper',
-    ItemImg: AllaPalla,
+    ItemImg: Bell,
     ItemName: 'Red Bell Pepper',
     ItemIngredients: 'Redbell peppers are a type of sweet pepper available in various colors, including red, yellow, orange, and green.',
     ItemPrice: (1500).toFixed(2),
@@ -159,8 +163,8 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'prosciutto-e-funghi-pizza',
-    ItemImg: Prosciutto,
+    id: 'carrot',
+    ItemImg: Carrot,
     ItemName: 'Carrots',
     ItemIngredients:
       'A crunchy, orange root vegetable with a sweet flavor. They can be eaten raw, roasted, boiled, or juiced. Carrots are a good source of Vitamin A.',
