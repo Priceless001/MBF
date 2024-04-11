@@ -1,7 +1,7 @@
 import CheesePizza from '../assets/images/cheese-pizza-375.jpg'
 import ExtraCheesePizza from '../assets/images/cheese-pizza-376.jpg'
 import VeggiePizza from '../assets/images/veggie-pizza.jpg'
-import PepperoniPizza from '../assets/images/pepperoni-pizza.jpg'
+import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
 import MeatPizza from '../assets/images/meat-pizza.jpg'
 import MargheritaPizza from '../assets/images/margherita-pizza.jpg'
 import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
@@ -9,7 +9,7 @@ import AllaPalla from '../assets/images/pizza-alla-pala.jpg'
 import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
 import DetroitStyle from '../assets/images/Detroit-Style-pizza.jpeg'
 import GarlicFingers from '../assets/images/Garlic-Fingers-pizza.jpeg'
-import StLous from '../assets/images/St-Louis-Style-Pizza.jpg'
+import Cabbages from '../assets/images/product-images/cabbages.jpg'
 import Rustica from '../assets/images/Pizza-Rustica.jpg'
 import Genovese from '../assets/images/Genovese.jpeg'
 import Efichi from '../assets/images/Pizza-e-fichi.jpeg'
@@ -70,8 +70,8 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pepperoni-pizza',
-    ItemImg: PepperoniPizza,
+    id: 'tomatoes',
+    ItemImg: Tomatoes,
     ItemName: 'Tomatoes',
     ItemIngredients:
       'Good for several sources of vitamins and mineralsuch as vitamins, pottassium and folate',
@@ -106,7 +106,7 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'margherita-pizza',
+    id: 'spring-onion',
     ItemImg: MargheritaPizza,
     ItemName: 'Spring Onion',
     ItemIngredients:
@@ -142,7 +142,7 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'alla-pala-pizza',
+    id: 'red-bell-pepper',
     ItemImg: AllaPalla,
     ItemName: 'Red Bell Pepper',
     ItemIngredients: 'Redbell peppers are a type of sweet pepper available in various colors, including red, yellow, orange, and green.',
@@ -213,9 +213,9 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'st-ouis-style-pizza',
-    ItemImg: StLous,
-    ItemName: 'Cabbage ',
+    id: 'cabbages',
+    ItemImg: Cabbages,
+    ItemName: 'Cabbages ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1500).toFixed(2),
