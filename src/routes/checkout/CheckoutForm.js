@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const CheckoutForm = ({ totalPayment, productsQuantity }) => {
   const handleProceedToPayment = () => {
     // Construct the WhatsApp message link with recipient phone number
-    const whatsappLink = `https://wa.me/07067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20.%20My%20total%20payment%20is%20₦${totalPayment}.`;
+    const whatsappLink = `https://wa.me/+2347067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20.%20My%20total%20payment%20is%20₦${totalPayment}.`;
     
     // Open the WhatsApp link in a new window
     window.open(whatsappLink, '_blank');
