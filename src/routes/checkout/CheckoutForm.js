@@ -30,9 +30,11 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
             </section>
           )}
         </article>
-        <button type="submit" className="active-button-style">
-          Proceed to payment
-        </button>
+            <Link to="https://wa.me" onClick={ResetLocation}>    
+              <button type="submit" className="active-button-style">
+                  Proceed to payment
+              </button>
+            </Link>
       </form>
     </section>
   );
