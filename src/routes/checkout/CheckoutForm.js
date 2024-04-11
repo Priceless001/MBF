@@ -16,7 +16,7 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
 
   return (
     <section className="checkout-personal-information">
-      <form onSubmit={handleSubmit}>
+      <form>
         <h3>Delivery details</h3>
 
         <article className="checkout-carttotals">
@@ -24,9 +24,9 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
             <section className="cart-totals">
               <section className="totals-content">
                 <h4 className="cart-totals-sum">Quantity:</h4>
-                <p> {productsQuantity}</p>
+                <p>{productsQuantity}</p>
               </section>
-              <section className="totals-content" >
+              <section className="totals-content">
                 <h4 className="cart-totals-sum">Total:</h4>
                 <p>₦ {totalPayment}</p>
               </section>
@@ -37,7 +37,6 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
         <button type="button" className="active-button-style" onClick={handleProceedToPayment}>
           Proceed to payment
         </button>
-        </Link>
       </form>
     </section>
   );
