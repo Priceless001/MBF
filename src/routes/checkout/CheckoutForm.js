@@ -4,6 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 
 const CheckoutForm = ({ totalPayment, productsQuantity }) => {
   const navigate = useNavigate();
+
+  // Define an empty handleSubmit function for now
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // You can add functionality here later
+  }
+
   return (
     <section className="checkout-personal-information">
       <form onSubmit={handleSubmit}>
@@ -32,4 +39,3 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
 }
 
 export default CheckoutForm;
-    
