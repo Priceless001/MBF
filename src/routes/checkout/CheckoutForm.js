@@ -1,9 +1,9 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link, useNavigate } from "react-router-dom";
 
-
+const CheckoutForm = ({ productsQuantity, taxes, totalPayment }) => {
+  // Define your state variables and functions here
 
   return (
     <section className="checkout-personal-information">
@@ -11,9 +11,7 @@ import { Link, useNavigate } from "react-router-dom";
       
       <form>
         <h3>Delivery details</h3>
-        
-        
-        
+
         <article className="checkout-carttotals">
           {productsQuantity === 0 ? null : (
             <section className="cart-totals">
@@ -30,7 +28,6 @@ import { Link, useNavigate } from "react-router-dom";
                 <p>$ {totalPayment}</p>
               </section>
             </section>
-
           )}
         </article>
         <button type="submit" className="active-button-style">
@@ -41,5 +38,5 @@ import { Link, useNavigate } from "react-router-dom";
   );
 }
 
-
 export default CheckoutForm;
+    
