@@ -4,16 +4,12 @@ import LinkButton from "../../components/Button";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link } from "react-router-dom";
 
-const CartTotals = ({ totalPayment, productsQuantity, taxes, className, validLogin, showModal, activateLoginModal }) => {
+const CartTotals = ({ totalPayment, productsQuantity, className, validLogin, showModal, activateLoginModal }) => {
   return (
     <article className={className}>
       {productsQuantity === 0 ? null : (
         <section className="cart-totals">
           <section className="totals-content">
-            <section>
-              <h4 className="cart-totals-sum">Delivery Fee:</h4>
-              <p>₦ {taxes}</p>
-            </section>
             <section>
               <h4 className="cart-totals-sum">Quantity:</h4>
               <p> {productsQuantity}</p>
