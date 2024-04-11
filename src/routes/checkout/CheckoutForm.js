@@ -5,29 +5,11 @@ import { Link, useNavigate } from "react-router-dom";
 
 
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setFormError(validateForm(formValue));
-    setSubmit(true);
-    ResetLocation();
-  }
-  useEffect(() => {
-    if (submit && Object.keys(formError).length === 0) {
-      return navigate('/payment');
-    }
-  }, [submit, formError, navigate]);
-
-  const handleValidation = (e) => {
-    const { name, value } = e.target;
-    setFormValue({ ...formValue, [name]: value });
-  }
-
-
   return (
     <section className="checkout-personal-information">
       <h3>Personal information <span><Link onClick={ResetLocation} to="/profile">Edit profile</Link></span></h3>
       
-      <form onSubmit={handleSubmit}>
+      <form>
         <h3>Delivery details</h3>
         
         
