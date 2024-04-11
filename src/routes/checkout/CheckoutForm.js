@@ -6,7 +6,7 @@ const CheckoutForm = ({ totalPayment, productsQuantity, cartItem }) => {
   const handleProceedToPayment = () => {
     // Construct the WhatsApp message link with recipient phone number
     const message = `Hello! I'd like to make a purchase of the following items:\n`;
-    const itemsList = cartItem.map(item => `${CartItem.Itemname}: ${item.quantity} x ${CartItem.Itemprice}`).join('\n');
+    const itemsList = cartItem.map(item => `${CartItem.Itemname}: ${CartItem.ItemQuantity} x ${CartItem.ItemPrice}`).join('\n');
     const totalPrice = `Total: ₦${totalPayment}`;
     const formattedMessage = `${message}${itemsList}\n${totalPrice}`;
     const encodedMessage = encodeURIComponent(formattedMessage);
