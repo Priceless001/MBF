@@ -2,7 +2,7 @@ import React from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link, useNavigate } from "react-router-dom";
 
-const CheckoutForm = ({ totalPayment, productsQuantity, taxes }) => {
+const CheckoutForm = ({ totalPayment, productsQuantity }) => {
   const navigate = useNavigate();
   return (
     <section className="checkout-personal-information">
@@ -13,16 +13,12 @@ const CheckoutForm = ({ totalPayment, productsQuantity, taxes }) => {
           {productsQuantity === 0 ? null : (
             <section className="cart-totals">
               <section className="totals-content">
-                <h4 className="cart-totals-sum">Tax 10%:</h4>
-                <p>$ {taxes}</p>
-              </section>
-              <section className="totals-content">
                 <h4 className="cart-totals-sum">Quantity:</h4>
                 <p> {productsQuantity}</p>
               </section>
               <section className="totals-content" >
                 <h4 className="cart-totals-sum">Total:</h4>
-                <p>$ {totalPayment}</p>
+                <p>₦ {totalPayment}</p>
               </section>
             </section>
           )}
