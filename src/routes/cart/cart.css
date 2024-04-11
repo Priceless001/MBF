@@ -15,7 +15,7 @@
 
 .cart h2 {
   margin: 0 auto;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .cart-content {
@@ -60,13 +60,13 @@
   font-weight: 400;
   color: var(--white);
   text-transform: capitalize;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .cart-item-interaction {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 1rem;
   align-items: center;
 }
 .cart-item-interaction .cart-item-price {
