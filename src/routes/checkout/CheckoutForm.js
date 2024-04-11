@@ -7,8 +7,6 @@ const CheckoutForm = ({ productsQuantity, taxes, totalPayment }) => {
 
   return (
     <section className="checkout-personal-information">
-      <h3>Personal information <span><Link onClick={ResetLocation} to="/profile">Edit profile</Link></span></h3>
-      
       <form>
         <h3>Delivery details</h3>
 
