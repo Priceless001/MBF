@@ -17,7 +17,7 @@ const CheckoutItem = ({ cartItem }) => {
           <h3>{cartItem.ItemName}  <span>{selectedAttributes}</span></h3>
         }
         <p>Quantity: {cartItem.quantity}</p>
-        <p>Price: $ {cartItem.ItemPrice}</p>
+        <p>Price: ₦ {cartItem.ItemPrice}</p>
       </section>
     </section>
   );
