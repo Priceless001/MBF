@@ -35,7 +35,7 @@ export const allProductsData = [
     id: 'cheese-pizza',
     ItemImg: PizzaRomana,
     ItemName: 'Sweet Beans',
-    ItemIngredients: 'Pizza dough, pizza sauce, provolone cheese, mozzarella.',
+    ItemIngredients: 'Beans provide protein, fiber,folate,iron and other body aid nutrient',
     ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -56,7 +56,7 @@ export const allProductsData = [
     ItemImg: VeggiePizza,
     ItemName: 'Watermelon ',
     ItemIngredients:
-      'Pizza sauce, Onion, Capsicum, Pineapple, Ginger, Hotshot sauce, Coriander, Garlic sauce, Butter sauce, Cheese.',
+      'Body hydrating fruit that improves heart health and adds to healthy digestion',
     ItemPrice: (2500).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -74,7 +74,7 @@ export const allProductsData = [
     ItemImg: PepperoniPizza,
     ItemName: 'Tomatoes',
     ItemIngredients:
-      'Pizza crust yeast, pepperoni, tomato paste, mozzarella cheese, sugar.',
+      'Good for several sources of vitamins and mineralsuch as vitamins, pottassium and folate',
     ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -90,9 +90,9 @@ export const allProductsData = [
   {
     id: 'meat-pizza',
     ItemImg: MeatPizza,
-    ItemName: 'Bell Pepper',
+    ItemName: 'Green Bell Pepper',
     ItemIngredients:
-      'A round or elongated bulb vegetable with a strong, pungent flavor that mellows when cooked.',
+      'Veggies used for the preparation of several meal and sauce.',
     ItemPrice: (1000).toFixed(2),
     Category: 'Pizza',
     attributes: [
@@ -108,7 +108,7 @@ export const allProductsData = [
   {
     id: 'margherita-pizza',
     ItemImg: MargheritaPizza,
-    ItemName: 'Chill Pepper',
+    ItemName: 'Spring Onion',
     ItemIngredients:
       'Pizza dough, tomato sauce, fresh mozzarella, olive oil, basil leaves.',
     ItemPrice: (1500).toFixed(2),
