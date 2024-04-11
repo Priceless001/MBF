@@ -27,7 +27,7 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
           )}
         </article>
         {/* Construct the WhatsApp message link */}
-        <a href={`https://wa.me/?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase.%20My%20total%20payment%20is%20₦${totalPayment}.`} onClick={ResetLocation}>
+        <a href={`https://wa.me/08122390396?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase.%20My%20total%20payment%20is%20₦${totalPayment}.`} onClick={ResetLocation}>
           <button type="submit" className="active-button-style">
             Proceed to payment
           </button>
