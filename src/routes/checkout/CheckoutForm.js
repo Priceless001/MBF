@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link, useNavigate } from "react-router-dom";
 
-const CheckoutForm = ({ products, totalPayment }) => {
+const CheckoutForm = ({ products, totalPayment, productsQuantity, taxes }) => {
   const navigate = useNavigate();
 
   const generateWhatsAppMessage = () => {
