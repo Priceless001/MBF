@@ -2,15 +2,10 @@ import React from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 import { Link } from "react-router-dom";
 
-const CheckoutForm = ({ totalPayment, productsQuantity, cartItem }) => {
+const CheckoutForm = ({ totalPayment, productsQuantity }) => {
   const handleProceedToPayment = () => {
     // Construct the WhatsApp message link with recipient phone number
-    const message = `Hello! I'd like to make a purchase of the following items:\n`;
-    const itemsList = cartItem.map(item => `${item.ItemName}: ${item.ItemQuantity} x ${item.ItemPrice}`).join('\n');
-    const totalPrice = `Total: ₦${totalPayment}`;
-    const formattedMessage = `${message}${itemsList}\n${totalPrice}`;
-    const encodedMessage = encodeURIComponent(formattedMessage);
-    const whatsappLink = `https://wa.me/08122390396?text=${encodedMessage}`;
+    const whatsappLink = `https://wa.me/08122390396?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20.%20My%20total%20payment%20is%20₦${totalPayment}.`;
     
     // Open the WhatsApp link in a new window
     window.open(whatsappLink, '_blank');
