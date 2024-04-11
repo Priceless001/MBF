@@ -209,7 +209,7 @@
     flex-direction: row;
   }
   .cart-item img {
-    max-width: 50%;
+    max-width: 30%;
   }
   .cart-item-content {
     justify-content: space-between;
