@@ -3,9 +3,15 @@ import ResetLocation from "../../helpers/ResetLocation";
 import { Link } from "react-router-dom";
 
 const CheckoutForm = ({ totalPayment, productsQuantity }) => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // You can add functionality here later
+  const handleProceedToPayment = () => {
+    // Construct the WhatsApp message link with recipient phone number
+    const whatsappLink = `https://wa.me/08122390396?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase.%20My%20total%20payment%20is%20₦${totalPayment}.`;
+    
+    // Open the WhatsApp link in a new window
+    window.open(whatsappLink, '_blank');
+
+    // Reset location or perform any other necessary actions
+    ResetLocation();
   }
 
   return (
@@ -27,11 +33,10 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
             </section>
           )}
         </article>
-        {/* Construct the WhatsApp message link */}
-        <Link to={`https://wa.me/08122390396?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase.%20My%20total%20payment%20is%20₦${totalPayment}.`} onClick={ResetLocation}>
-          <button type="submit" className="active-button-style">
-            Proceed to payment
-          </button>
+        {/* Call handleProceedToPayment when button is clicked */}
+        <button type="button" className="active-button-style" onClick={handleProceedToPayment}>
+          Proceed to payment
+        </button>
         </Link>
       </form>
     </section>
