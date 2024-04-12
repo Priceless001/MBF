@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 
 const CheckoutForm = ({ totalPayment, productsQuantity, cartItems }) => {
