@@ -2,26 +2,17 @@ import React, { useState } from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 
 const CheckoutForm = ({ totalPayment, productsQuantity, cartItems }) => {
-  const [whatsappMessage, setWhatsappMessage] = useState("");
-
   const handleProceedToPayment = () => {
     // Construct the message for the WhatsApp link
     const itemsList = cartItems.map(item => `${item.ItemName} - ${item.quantity} x ${item.ItemPrice}`).join('%0A');
-    const totalPrice = `Total: ₦${totalPayment}`;
-    const message = `Hello! I'd like to make a purchase of the following items:\n${itemsList}\n${totalPrice}`;
-    
-    // Encode the message for the URL
-    const encodedMessage = encodeURIComponent(message);
-
     // Construct the WhatsApp message link with recipient phone number and message
-    const whatsappLink = `https://wa.me/+2347067903294?text=${encodedMessage}`;
-    
+    const whatsappLink = `https://wa.me/+2347067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20of%20the%20following%20items%20${itemsList}.%20My%20total%20payment%20is%20₦${totalPayment}.`;
     // Open the WhatsApp link in a new window
     window.open(whatsappLink, '_blank');
 
     // Reset location or perform any other necessary actions
     ResetLocation();
-  };
+  }
 
   return (
     <section className="checkout-personal-information">
@@ -52,3 +43,20 @@ const CheckoutForm = ({ totalPayment, productsQuantity, cartItems }) => {
 };
 
 export default CheckoutForm;
+import React from "react";
+import ResetLocation from "../../helpers/ResetLocation";
+import { Link } from "react-router-dom";
+
+const CheckoutForm = ({ totalPayment, productsQuantity }) => {
+  const handleProceedToPayment = () => {
+    // Construct the WhatsApp message link with recipient phone number
+    const whatsappLink = `https://wa.me/+2347067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20.%20My%20total%20payment%20is%20₦${totalPayment}.`;
+    
+    // Open the WhatsApp link in a new window
+    window.open(whatsappLink, '_blank');
+
+    // Reset location or perform any other necessary actions
+    ResetLocation();
+  }
+
+  
