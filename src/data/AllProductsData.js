@@ -128,7 +128,7 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'bbq-chicken-pizza',
+    id: 'rodo',
     ItemImg: Rodo,
     ItemName: 'Pepper (Rodo)',
     ItemIngredients:
@@ -147,7 +147,7 @@ export const allProductsData = [
   },
   {
     id: 'red-bell-pepper',
-    ItemImg: Bell,
+    ItemImg: BellPepper,
     ItemName: 'Red Bell Pepper',
     ItemIngredients: 'Redbell peppers are a type of sweet pepper available in various colors, including red, yellow, orange, and green.',
     ItemPrice: (1500).toFixed(2),
@@ -181,8 +181,8 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'detroit-style-pizza',
-    ItemImg: DetroitStyle,
+    id: 'cucumber',
+    ItemImg: Cucumber,
     ItemName: 'Cucumber',
     ItemIngredients:
       'A long, green gourd-like vegetable with watery flesh and mild flavor. There are seedless varieties and ones with small edible seeds. Cucumbers are great for salads, sandwiches, or refreshing dips like raita.',
