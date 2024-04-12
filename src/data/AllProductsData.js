@@ -32,7 +32,7 @@ import PizzaRomana from '../assets/images/PizzaRomana.jpeg'
 import Carrot from '../assets/images/Carrott.jpeg'
 import Rodo from '../assets/images/Rodo.jpeg'
 import Cucumber from '../assets/images/Cucumber.jpeg'
-import Bellpepper from '../assets/images/BellPepper.Jpeg'
+import Bellpepper from '../assets/images/BellPepper.jpeg'
 
 export const allProductsData = [
   {
