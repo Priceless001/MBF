@@ -3,10 +3,7 @@ import ResetLocation from "../../helpers/ResetLocation";
 
 const CheckoutForm = ({ totalPayment, productsQuantity, cartItems }) => {
   const handleProceedToPayment = () => {
-    // Construct the message for the WhatsApp link
-    const itemsList = cartItems.map(cartItem => `${cartItem.ItemName} - ${cartItem.quantity} x ${cartItem.ItemPrice}`).join('%0A');
-    // Construct the WhatsApp message link with recipient phone number and message
-    const whatsappLink = `https://wa.me/+2347067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20of%20the%20following%20items%20${itemsList}.%20My%20total%20payment%20is%20₦${totalPayment}.`;
+    const whatsappLink = `https://wa.me/+2347067903294?text=Hello,%20I'm%20interested%20in%20making%20a%20purchase%20of%20the%20following%20items%20.%20My%20total%20payment%20is%20₦${totalPayment}.`;
     // Open the WhatsApp link in a new window
     window.open(whatsappLink, '_blank');
 
