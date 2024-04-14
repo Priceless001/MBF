@@ -1,7 +1,7 @@
 import React from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 
-const CheckoutForm = ({ totalPayment, productsQuantity, cartItems }) => {
+const CheckoutForm = ({ totalPayment, productsQuantity }) => {
   const handleProceedToPayment = () => {
     // Reset location or perform any other necessary actions
     ResetLocation();
