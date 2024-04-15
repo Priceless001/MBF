@@ -1,4 +1,4 @@
-import CheesePizza from '../assets/images/cheese-pizza-375.jpg'
+import Beans from '../assets/images/beans.jpg'
 import ExtraCheesePizza from '../assets/images/cheese-pizza-376.jpg'
 import VeggiePizza from '../assets/images/veggie-pizza.jpg'
 import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
@@ -15,8 +15,8 @@ import SmallYam from '../assets/images/small-yam.jpg'
 
 export const allProductsData = [
   {
-    id: 'cheese-pizza',
-    ItemImg: VeggiePizza,
+    id: 'Beans',
+    ItemImg: Beans,
     ItemName: 'Sweet Beans',
     ItemIngredients: 'Beans provide protein, fiber,folate,iron and other body aid nutrient',
     ItemPrice: (1500).toFixed(2),
@@ -231,7 +231,7 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'pesto-genovese-pizza',
+    id: 'smallyam',
     ItemImg: SmallYam,
     ItemName: 'Big Yam ',
     ItemIngredients:
@@ -249,7 +249,7 @@ export const allProductsData = [
     ],
   },
   {
-    id: 'e-fichi-pizza',
+    id: 'Bigyam',
     ItemImg: BigYam,
     ItemName: 'Small Yam ',
     ItemIngredients: 'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
