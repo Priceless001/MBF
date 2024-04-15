@@ -33,9 +33,9 @@ import Carrot from '../assets/images/Carrott.jpeg'
 import Rodo from '../assets/images/Rodo.jpeg'
 import Cucumber from '../assets/images/Cucumber.jpeg'
 import BellPepper from '../assets/images/BellPepper.jpeg'
-import Bigyam from '../assets/product-images/Big-yam.jpeg'
-import Smallyam from '..assets/product-images/Small-yam.jpeg'
-import Bigcabbage from '..assets/product-images/Big-cabbage.jpeg'
+import Bigyam from '../assets/images/product-images/Big-yam.jpeg'
+import Smallyam from '..assets/images/product-images/Small-yam.jpeg'
+import Bigcabbage from '..assets/images/product-images/Big-cabbage.jpeg'
 
 export const allProductsData = [
   {
