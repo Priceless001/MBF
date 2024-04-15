@@ -60,7 +60,7 @@ const ContactLanding = () => {
             <li>- Email: mbfgbemidele5862@gmail.com</li>
             <li>- Phone: +234 708 6065 667</li>
             <li>- Phone: +234 706 7903 294</li>
-            <li>- Hours: Monday - Friday, 7:00am - 8:00pm (WAT)</li>
+            <li>- Hours: Monday - Friday, 8:00am - 6:00pm (WAT)</li>
           </ul>
         </section>
         <section>
