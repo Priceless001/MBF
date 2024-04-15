@@ -40,7 +40,7 @@ export const allProductsData = [
     ItemName: 'Okro ',
     ItemIngredients:
       'Body hydrating fruit that improves heart health and adds to healthy digestion',
-    ItemPrice: (2500).toFixed(2),
+    ItemPrice: (1500).toFixed(2),
     Category: 'Pizza',
     attributes: [
       {
