@@ -180,7 +180,7 @@ export const allProductsData = [
   {
     id: 'garlic-fingers',
     ItemImg: Cabbages,
-    ItemName: 'Cabbage ',
+    ItemName: 'Small Cabbage ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1000).toFixed(2),
@@ -198,7 +198,7 @@ export const allProductsData = [
   {
     id: 'cabbages',
     ItemImg: BigCabbage,
-    ItemName: 'Cabbages ',
+    ItemName: 'Big Cabbages ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
     ItemPrice: (1500).toFixed(2),
@@ -233,7 +233,7 @@ export const allProductsData = [
   {
     id: 'pesto-genovese-pizza',
     ItemImg: SmallYam,
-    ItemName: 'Small Yam ',
+    ItemName: 'Big Yam ',
     ItemIngredients:
       'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (6000).toFixed(2),
@@ -251,7 +251,7 @@ export const allProductsData = [
   {
     id: 'e-fichi-pizza',
     ItemImg: BigYam,
-    ItemName: 'Yam ',
+    ItemName: 'Small Yam ',
     ItemIngredients: 'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (4000).toFixed(2),
     Category: 'Pizza',
