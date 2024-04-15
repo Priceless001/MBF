@@ -1,5 +1,5 @@
 import Beans from '../assets/images/beans.jpg'
-import ExtraCheesePizza from '../assets/images/cheese-pizza-376.jpg'
+import Okro from '../assets/images/okro.jpg'
 import VeggiePizza from '../assets/images/veggie-pizza.jpg'
 import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
 import MeatPizza from '../assets/images/meat-pizza.jpg'
@@ -35,9 +35,9 @@ export const allProductsData = [
   },
 
   {
-    id: 'veggie-pizza',
-    ItemImg: VeggiePizza,
-    ItemName: 'Watermelon ',
+    id: 'okro',
+    ItemImg: Okro,
+    ItemName: 'Okro ',
     ItemIngredients:
       'Body hydrating fruit that improves heart health and adds to healthy digestion',
     ItemPrice: (2500).toFixed(2),
