@@ -10,9 +10,9 @@ export default class FooterContact extends React.Component {
     return (
       <section className="footer-contact  flex-container flex-column">
         <h3>Have questions?</h3>
-        <p>08063329112</p>
+        <p>07086065667, 07067903294</p>
         <p>mbfgbemidele5862@gmail.com</p>
-        <p>8:00am - 7:00pm</p>
+        <p>8:00am - 6:00pm</p>
         <section className="accepted-payments">
           <img width="50" height="50" src={Visa} alt="Visa card" />
           <img width="50" height="50" src={MasterCard} alt="Mastercard card" />
