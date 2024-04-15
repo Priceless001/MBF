@@ -6,7 +6,7 @@ const ContactUsLanding = () => {
     <section className="contact-us-landing flex-container txt-white" >
       <section className='company-details'>
         <div>
-          <h2>08063329112</h2>
+          <h2>07086065667, 07067903294</h2>
           <p>Contact us if you have any questions</p>
         </div>
         <div>
@@ -15,7 +15,7 @@ const ContactUsLanding = () => {
         </div>
         <div>
           <h2>Open Monday-Friday</h2>
-          <p>7:00am - 8:00pm</p>
+          <p>8:00am - 6:00pm</p>
         </div>
       </section>
     </section>
