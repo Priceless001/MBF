@@ -58,7 +58,8 @@ const ContactLanding = () => {
           <p>Our dedicated customer support team is ready to assist you with any inquiries you may have.</p>
           <ul>
             <li>- Email: mbfgbemidele5862@gmail.com</li>
-            <li>- Phone: +234 80633 29112</li>
+            <li>- Phone: +234 708 6065 667</li>
+            <li>- Phone: +234 706 7903 294</li>
             <li>- Hours: Monday - Friday, 7:00am - 8:00pm (WAT)</li>
           </ul>
         </section>
