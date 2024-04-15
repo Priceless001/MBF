@@ -197,7 +197,7 @@ export const allProductsData = [
   },
   {
     id: 'cabbages',
-    ItemImg: Cabbage,
+    ItemImg: Bigcabbage,
     ItemName: 'Cabbages ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
