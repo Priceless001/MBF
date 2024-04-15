@@ -4,31 +4,7 @@ import VeggiePizza from '../assets/images/veggie-pizza.jpg'
 import Tomatoes from '../assets/images/product-images/tomato-medium.jpg'
 import MeatPizza from '../assets/images/meat-pizza.jpg'
 import SpringOnions from '../assets/images/product-images/spring-onions.jpg'
-import BBQPizza from '../assets/images/BBQ-chicken-pizza.jpg'
-import AllaPalla from '../assets/images/pizza-alla-pala.jpg'
-import Prosciutto from '../assets/images/Prosciutto-e-Funghi-Pizza.jpeg'
-import DetroitStyle from '../assets/images/Detroit-Style-pizza.jpeg'
-import GarlicFingers from '../assets/images/Garlic-Fingers-pizza.jpeg'
 import Cabbages from '../assets/images/product-images/cabbages.jpg'
-import Rustica from '../assets/images/Pizza-Rustica.jpg'
-import Genovese from '../assets/images/Genovese.jpeg'
-import Efichi from '../assets/images/Pizza-e-fichi.jpeg'
-import Apizza from '../assets/images/Apizza.jpg'
-import StuffedPizza from '../assets/images/Stuffed-Pizza.jpg'
-import Pugliese from '../assets/images/Pugliese.jpeg'
-import TomatoPie from '../assets/images/Tomato-Pie.jpeg'
-import Fugaza from '../assets/images/fugazza.jpeg'
-import DiZucca from '../assets/images/di-zucca.jpeg'
-import Fugazeta from '../assets/images/Fugazzeta.jpeg'
-import Carbonara from '../assets/images/carbonara.jpeg'
-import GranmaPie from '../assets/images/Grandma-Pie.jpeg'
-import Padellino from '../assets/images/padellino.jpeg'
-import CaliforniaStyle from '../assets/images/California-Style.jpeg'
-import Fritta from '../assets/images/fritta.jpeg'
-import Romana from '../assets/images/romana.jpeg'
-import ThinCrust from '../assets/images/Thin-Crust.jpeg'
-import GreekStyle from '../assets/images/Greek-Style.jpeg'
-import PizzaRomana from '../assets/images/PizzaRomana.jpeg'
 import Carrot from '../assets/images/Carrott.jpeg'
 import Rodo from '../assets/images/Rodo.jpeg'
 import Cucumber from '../assets/images/Cucumber.jpeg'
@@ -40,7 +16,7 @@ import Bigcabbage from '..assets/images/product-images/Big-cabbage.jpeg'
 export const allProductsData = [
   {
     id: 'cheese-pizza',
-    ItemImg: PizzaRomana,
+    ItemImg: VeggiePizza,
     ItemName: 'Sweet Beans',
     ItemIngredients: 'Beans provide protein, fiber,folate,iron and other body aid nutrient',
     ItemPrice: (1500).toFixed(2),
@@ -239,7 +215,7 @@ export const allProductsData = [
   },
   {
     id: 'rustica-pizza',
-    ItemImg: Rustica,
+    ItemImg: MeatPizza,
     ItemName: 'Green Pepper ',
     ItemIngredients: 'Green peppers are unripe bell peppers and have a grassy flavor.',
     ItemPrice: (4000).toFixed(2),
