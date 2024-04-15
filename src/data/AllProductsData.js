@@ -9,6 +9,9 @@ import Carrot from '../assets/images/Carrott.jpeg'
 import Rodo from '../assets/images/Rodo.jpeg'
 import Cucumber from '../assets/images/Cucumber.jpeg'
 import BellPepper from '../assets/images/BellPepper.jpeg'
+import BigCabbage from '../assets/images/big-cabbage.jpg'
+import BigYam from '../assets/images/big-yam.jpg'
+import SmallYam from '../assets/images/small-yam.jpg'
 
 export const allProductsData = [
   {
@@ -194,7 +197,7 @@ export const allProductsData = [
   },
   {
     id: 'cabbages',
-    ItemImg: CheesePizza,
+    ItemImg: BigCabbage,
     ItemName: 'Cabbages ',
     ItemIngredients:
       'A pod-shaped vegetable that comes in various shapes, sizes, and spice levels. They range from mild to extremely hot depending on the variety.',
@@ -229,8 +232,8 @@ export const allProductsData = [
   },
   {
     id: 'pesto-genovese-pizza',
-    ItemImg: MeatPizza,
-    ItemName: 'Yam ',
+    ItemImg: SmallYam,
+    ItemName: 'Small Yam ',
     ItemIngredients:
       'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (6000).toFixed(2),
@@ -247,7 +250,7 @@ export const allProductsData = [
   },
   {
     id: 'e-fichi-pizza',
-    ItemImg: MeatPizza,
+    ItemImg: BigYam,
     ItemName: 'Yam ',
     ItemIngredients: 'Yams are a root vegetable with starchy tubers that can be baked, roasted, or mashed.',
     ItemPrice: (4000).toFixed(2),
