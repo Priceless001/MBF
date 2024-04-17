@@ -14,7 +14,7 @@ const WelcomeSection = () => {
           Welcome to <span>MBF NEWDAWN </span> ENTERPRISES
         </h2>
         <p>
-          We are known for quality ,quick anf prompt delivery of our goods and services.
+          We are known for quality, quick and prompt delivery of our goods and services.
           As event planner and managers, we are professionals with our experience spanning over a decade and also with our high level of passion which is our driving force,
           we can always assure you of quality delivery service
           As farmers, we procure, package and deliver your ordered farm products that are naturally grown void of chemical fertilizer.
