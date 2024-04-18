@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from "react-router-dom";
 
 const Popup = ({ onClose }) => {
 
@@ -16,8 +17,12 @@ const Popup = ({ onClose }) => {
           I have read and accept the terms and conditions.
         </label>
         <div className="popup-buttons">
-          <button onClick={handleClose}>Close</button>
+          <NavLink to="/menu>
+          <button>Close</button>
+          </NavLink>
+          <NavLink to="/terms>
           <button>Proceed</button>
+          </NavLink>
         </div>
       </div>
     </div>
