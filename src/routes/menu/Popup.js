@@ -12,8 +12,11 @@ const Popup = ({ onClose }) => {
 
   const handleCheckboxChange = () => {
     setIsChecked(!isChecked);
-    if (isChecked) {
-      setIsVisible(false); // Hide the popup when checkbox is checked
+  };
+
+  const handleProceed = () => {
+    if (!isChecked) {
+      setIsVisible(false); // Hide the popup when checkbox is unchecked
     }
   };
 
@@ -31,7 +34,7 @@ const Popup = ({ onClose }) => {
             <div className="popup-buttons">
               <button onClick={handleClose}>Close</button>
               <NavLink to="/terms">
-                <button>Proceed</button>
+                <button onClick={handleProceed}>Proceed</button>
               </NavLink>
             </div>
           </div>
@@ -42,4 +45,4 @@ const Popup = ({ onClose }) => {
 };
 
 export default Popup;
-       
+    
