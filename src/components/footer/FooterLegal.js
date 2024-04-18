@@ -18,23 +18,6 @@ export default class FooterLegal extends React.Component {
                         }
                         onClick={ResetLocation}
                         className="txt-white"
-                        to="/careers"
-                    >
-                        Careers
-                    </NavLink>
-                </li>
-                <li>
-                    <NavLink
-                        style={({ isActive }) =>
-                            isActive
-                                ? {
-                                    textDecoration: "none",
-                                    color: "#ff6240",
-                                }
-                                : {}
-                        }
-                        onClick={ResetLocation}
-                        className="txt-white"
                         to="/privacy"
                     >
                         Privacy
@@ -72,7 +55,7 @@ export default class FooterLegal extends React.Component {
                         className="txt-white"
                         to="/terms"
                     >
-                        Terms
+                        Terms and conditions 
                     </NavLink>
                 </li>
 
