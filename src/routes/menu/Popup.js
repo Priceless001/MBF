@@ -8,6 +8,7 @@ const Popup = ({ onClose }) => {
   const handleClose = () => {
     onClose();
     setIsVisible(false); // Hide the popup
+    document.querySelector('.popup').classList.add('hidden'); // Add hidden class
   };
 
   const handleCheckboxChange = () => {
@@ -17,6 +18,7 @@ const Popup = ({ onClose }) => {
   const handleProceed = () => {
     if (!isChecked) {
       setIsVisible(false); // Hide the popup when checkbox is unchecked
+      document.querySelector('.popup').classList.add('hidden'); // Add hidden class
     }
   };
 
@@ -45,4 +47,4 @@ const Popup = ({ onClose }) => {
 };
 
 export default Popup;
-    
+       
