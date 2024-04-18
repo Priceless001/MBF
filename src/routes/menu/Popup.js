@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const Popup = ({ onClose, onProceed }) => {
+const Popup = ({ onClose }) => {
 
   const handleClose = () => {
     onClose();
   };
-
-
 
   return (
     <div className="popup">
@@ -14,12 +12,12 @@ const Popup = ({ onClose, onProceed }) => {
         <h2>Important Notice</h2>
         <p>Please take a moment to read our terms and conditions before proceeding.</p>
         <label>
-          <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
+          <input type="checkbox" />
           I have read and accept the terms and conditions.
         </label>
         <div className="popup-buttons">
           <button onClick={handleClose}>Close</button>
-          <button onClick={handleProceed}>Proceed</button>
+          <button>Proceed</button>
         </div>
       </div>
     </div>
@@ -27,3 +25,4 @@ const Popup = ({ onClose, onProceed }) => {
 };
 
 export default Popup;
+    
