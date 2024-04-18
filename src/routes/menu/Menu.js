@@ -39,7 +39,6 @@ const Menu = ({ allProducts,
 
   }, [allProducts, setEndOffset, endOffset, itemOffset, activeCategory]);
   return (
-    <Popup />
     <motion.main
       className="menu-main"
       initial={{ opacity: 0, translateX: -300 }}
@@ -47,6 +46,7 @@ const Menu = ({ allProducts,
       exit={{ opacity: 0, translateX: -300 }}
       transition={{ duration: 1 }}
     >
+      <Popup />
       <MenuCategories
         activeCategory={activeCategory}
         allCategories={allCategories}
