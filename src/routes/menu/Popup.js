@@ -17,9 +17,7 @@ const Popup = ({ onClose }) => {
           I have read and accept the terms and conditions.
         </label>
         <div className="popup-buttons">
-          <NavLink to="/menu>
           <button>Close</button>
-          </NavLink>
           <NavLink to="/terms>
           <button>Proceed</button>
           </NavLink>
