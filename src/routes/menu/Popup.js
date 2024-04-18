@@ -18,8 +18,8 @@ const Popup = ({ onClose }) => {
         </label>
         <div className="popup-buttons">
           <button>Close</button>
-          <NavLink to="/terms>
-          <button>Proceed</button>
+          <NavLink to="/terms">
+            <button>Proceed</button>
           </NavLink>
         </div>
       </div>
