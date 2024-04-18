@@ -51,7 +51,18 @@ const termsContent = [
         title: 'Changes to Terms',
         content: `We reserve the right to modify these Terms of Service at any time. We will notify you of significant changes through our website or by email.`
     },
-
+    {
+        id: 10,
+        title: 'Ordering Terms',
+        content: `We sell in kilograms and liters. Each message can carry a maximum of 55kg/Litr. Additional weight attracts extra charges, depending on the excess weight.
+        The minimum order per message is N65,000.
+        In addition to our charges, which are 19.69 percent, customers are required to pay a subsidized fixed amount of Nxxxx per message for transportation and logistics costs.
+        Normal orders are delivered within 48 hours maximum.
+        Express orders are delivered within 14 hours maximum and attract an additional 47.50 percent charge on top of the normal price.
+        No normal orders are processed on Fridays, but express orders are available.
+        All express orders must be placed between 10pm and 4am.`
+    }
 ]
 
 export default termsContent;
+        
