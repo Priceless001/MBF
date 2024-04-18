@@ -1,23 +1,12 @@
 import React, { useState } from 'react';
 
 const Popup = ({ onClose, onProceed }) => {
-  const [isChecked, setIsChecked] = useState(false);
-
-  const handleCheckboxChange = () => {
-    setIsChecked(!isChecked);
-  };
 
   const handleClose = () => {
     onClose();
   };
 
-  const handleProceed = () => {
-    if (isChecked) {
-      onProceed();
-    } else {
-      alert("Please read and accept the terms and conditions before proceeding.");
-    }
-  };
+
 
   return (
     <div className="popup">
