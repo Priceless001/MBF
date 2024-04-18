@@ -273,10 +273,14 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 5px;
   text-align: center;
 }
+.popup-inner label,
 .popup-inner p {
   margin-top: 10px;
 }
-
+.popup-inner label input
+{
+  margin-right: 2px;
+}
 .popup-buttons {
   margin-top: 20px;
   font-family: var(--poppins-font);
