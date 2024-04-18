@@ -1,9 +1,8 @@
 import { useEffect } from "react";
-import privacyContent from "../../data/privacyContent";
 
 const Privacy = () => {
     useEffect(() => {
-        document.title = "Privacy | Pizza Time";
+        document.title = "Privacy | MBF DAWN ENTERPRISES";
     }, []);
     return (
         <main className="terms">
@@ -30,27 +29,21 @@ const Privacy = () => {
   <li>The delivery details are used to ensure accurate and timely delivery of your fresh food order.</li>
 </ul>
 
-<p>3. <strong>Protection of Your Information:</strong></p>
+<p>3. Protection of Your Information:</p>
 <ul>
   <li>We are committed to protecting your personal information and have implemented appropriate security measures to safeguard it.</li>
   <li>We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as required by law or to facilitate order delivery.</li>
 </ul>
 
-<p>4. <strong>Consent:</strong></p>
+<p>4. Consent:</p>
 <p>By providing your personal information and placing an order with MBF DAWN ENTERPRISES, you consent to the collection, use, and disclosure of your information as described in this Policy.</p>
 
-<p>5. <strong>Changes to This Policy:</strong></p>
+<p>5. Changes to This Policy:</p>
 <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any significant changes by posting the updated Policy on our website.</p>
 
-<p>6. <strong>Contact Us:</strong></p>
-<p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at [contact email or phone number].</p>
+<p>6. Contact Us:</p>
 
-             {privacyContent.map((content) =>
-                <section key={content.title}>
-                    <h3>{content.id}. {content.title}:</h3>
-                    <p>{content.content}</p>
-                </section>)}
-            <p>If you have any questions or concerns regarding our Privacy Policy, please contact us at info@mbfnewdawn@gmail.com.
+    <p>If you have any questions or concerns regarding our Privacy Policy, please contact us at info@mbfnewdawn@gmail.com.
                 Thank you for trusting MBF NEWDAWN ENTERPRISES with your personal information.</p>
         </main>
     )
