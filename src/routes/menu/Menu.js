@@ -2,6 +2,7 @@ import React from "react";
 import MenuCategories from "./MenuCategories";
 import ScrollButton from "../../helpers/ScrollBtn";
 import MenuGridItem from "./MenuGridItem";
+import Popup from "./Popup";
 import ReactPaginate from 'react-paginate';
 import { useState, useEffect } from "react";
 import ResetLocation from "../../helpers/ResetLocation";
@@ -38,6 +39,7 @@ const Menu = ({ allProducts,
 
   }, [allProducts, setEndOffset, endOffset, itemOffset, activeCategory]);
   return (
+    <Popup />
     <motion.main
       className="menu-main"
       initial={{ opacity: 0, translateX: -300 }}
