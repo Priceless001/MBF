@@ -1251,6 +1251,8 @@ hr {
   font-family: var(--poppins-font);
 }
 .terms p,
-.terms h3 {
+.terms h3,
+.terms li
+ {
   color: var(--light-gray);
 }
