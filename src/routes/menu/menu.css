@@ -270,6 +270,9 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 5px;
   text-align: center;
 }
+.popup-inner p {
+  margin-top: 10px;
+}
 
 .popup-buttons {
   margin-top: 20px;
@@ -278,7 +281,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .popup-buttons button {
   margin: 0 10px;
-  padding: 15px 10px;
+  padding: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
