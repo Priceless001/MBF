@@ -36,12 +36,7 @@ const Popup = ({ onClose }) => {
           <div className="popup-inner">
             <h2>Important Notice</h2>
             <p>Please take a moment to read our terms and conditions before proceeding.</p>
-            <label>
-              <input type="checkbox" checked={isChecked} onChange={handleCheckboxChange} />
-              I have read and accept the terms and conditions.
-            </label>
             <div className="popup-buttons">
-              <button onClick={handleClose}>Close</button>
               <NavLink to="/terms">
                 <button onClick={handleProceed}>Proceed</button>
               </NavLink>
