@@ -71,6 +71,10 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-bottom: 20px;
 }
 
+.delivery-options {
+  margin-bottom: 15px;
+}
+
 .delivery-options input[type="radio"] {
   margin-right: 10px;
 }
