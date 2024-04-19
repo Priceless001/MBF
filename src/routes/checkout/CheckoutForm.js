@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import ResetLocation from "../../helpers/ResetLocation";
 
 const CheckoutForm = ({ totalPayment, productsQuantity }) => {
+  const [deliveryOption, setDeliveryOption] = useState("normal");
+  const [name, setName] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
+  const [address, setAddress] = useState("");
+
   const handleProceedToPayment = () => {
     // Reset location or perform any other necessary actions
     ResetLocation();
@@ -15,6 +20,54 @@ const CheckoutForm = ({ totalPayment, productsQuantity }) => {
     <section className="checkout-personal-information">
       <form>
         <h3>Delivery details</h3>
+
+        <div className="delivery-options">
+          <input
+            type="radio"
+            id="normal-delivery"
+            name="delivery-option"
+            value="normal"
+            checked={deliveryOption === "normal"}
+            onChange={() => setDeliveryOption("normal")}
+          />
+          <label htmlFor="normal-delivery">Normal Delivery</label>
+
+          <input
+            type="radio"
+            id="express-delivery"
+            name="delivery-option"
+            value="express"
+            checked={deliveryOption === "express"}
+            onChange={() => setDeliveryOption("express")}
+          />
+          <label htmlFor="express-delivery">Express Delivery</label>
+        </div>
+
+        <label htmlFor="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          className="input-field"
+        />
+
+        <label htmlFor="phone-number">Phone Number:</label>
+        <input
+          type="tel"
+          id="phone-number"
+          value={phoneNumber}
+          onChange={(e) => setPhoneNumber(e.target.value)}
+          className="input-field"
+        />
+
+        <label htmlFor="address">House Address:</label>
+        <textarea
+          id="address"
+          value={address}
+          onChange={(e) => setAddress(e.target.value)}
+          className="input-field"
+        />
 
         <article className="checkout-carttotals">
           {productsQuantity === 0 ? null : (
