@@ -1,14 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 
 const Popup = ({ onClose }) => {
-  const [isVisible, setIsVisible] = useState(true);
   const [isChecked, setIsChecked] = useState(false);
+
+  // Retrieve visibility state from session storage on component mount
+  useEffect(() => {
+    const storedVisibility = sessionStorage.getItem('popupVisibility');
+    setIsVisible(storedVisibility !== 'hidden');
+  }, []);
+
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleClose = () => {
     onClose();
     setIsVisible(false); // Hide the popup
-    document.querySelector('.popup').classList.add('hidden'); // Add hidden class
+    sessionStorage.setItem('popupVisibility', 'hidden'); // Store visibility state
   };
 
   const handleCheckboxChange = () => {
@@ -18,7 +25,7 @@ const Popup = ({ onClose }) => {
   const handleProceed = () => {
     if (!isChecked) {
       setIsVisible(false); // Hide the popup when checkbox is unchecked
-      document.querySelector('.popup').classList.add('hidden'); // Add hidden class
+      sessionStorage.setItem('popupVisibility', 'hidden'); // Store visibility state
     }
   };
 
@@ -47,4 +54,4 @@ const Popup = ({ onClose }) => {
 };
 
 export default Popup;
-       
+    
