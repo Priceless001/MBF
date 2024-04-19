@@ -32,7 +32,7 @@ const Menu = ({ allProducts,
     setEndOffset(5);
   }
   useEffect(() => {
-    document.title = `${activeCategory} | Pizza Time`;
+    document.title = `${activeCategory} | MBF DAWN ENTEPRISES`;
     setEndOffset(itemOffset + 5);
     setcurrentProducts([...allProducts].reverse().slice(itemOffset, endOffset));
     setpageCountProducts(Math.ceil(allProducts.length / 5));
